@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="&quot;提交测试&quot;">
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/链表/_160_相交链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-链表/src/cn/doudou/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-链表/src/cn/doudou/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-链表/src/cn/doudou/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-链表/src/cn/doudou/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-链表/src/cn/doudou/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/03-链表/cn/doudou/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/03-链表/cn/doudou/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/03-链表/cn/doudou/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/03-链表/cn/doudou/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/03-链表/cn/doudou/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/03-链表/cn/doudou/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/03-链表/cn/doudou/MaoPaoPaiXu.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,8 +184,16 @@
       <workItem from="1652079937390" duration="1813000" />
       <workItem from="1652259273682" duration="4813000" />
       <workItem from="1652346322332" duration="2510000" />
-      <workItem from="1652356052657" duration="5884000" />
+      <workItem from="1652356052657" duration="7951000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
+      <created>1652366588531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652366588531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;提交测试&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;提交测试&quot;" />
+    <MESSAGE value="&quot;主要对于双向链表的toString方法进行的重构操作&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;主要对于双向链表的toString方法进行的重构操作&quot;" />
   </component>
 </project>

@@ -134,11 +134,15 @@ public class LinkedList<E> extends AbstractList<E> {
 
             if (prev != null) {
                 sb.append(prev.element);
+            } else {
+                sb.append("null");
             }
             sb.append("_").append(element).append("_");
 
             if (next != null) {
                 sb.append(next.element);
+            }else {
+                sb.append("null");
             }
             return sb.toString();
         }
