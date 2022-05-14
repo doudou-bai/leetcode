@@ -51,6 +51,9 @@ public class ArrayList2<E> {
             elements[i] = null;
         }
         size = 0;
+        if (elements != null && elements.length > DEFAULT_CAPACIIY){
+            elements = (E[]) new Object[DEFAULT_CAPACIIY];
+        }
     }
 
     /*
