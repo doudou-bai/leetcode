@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="&quot;2022-5-28 新建了剑指Offer&quot;">
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_704_二分查找.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/secondaryImplementation/ArrayList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/secondaryImplementation/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/utis/EnglishConversion.java" afterDir="false" />
+    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="&quot;数组的二分查找法&quot;">
+      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_1_两数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_27_移除元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_35_搜索插入位置.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/firstRealization/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/firstRealization/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/firstRealization/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/Persion.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-动态数组/src/cn/doudou/firstRealization/Persion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-动态数组/cn/doudou/ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-动态数组/cn/doudou/Assert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-动态数组/cn/doudou/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-动态数组/cn/doudou/Persion.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/00-leetcode/src/剑指Offer" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -168,7 +160,7 @@
       <workItem from="1653801519060" duration="967000" />
       <workItem from="1654923760341" duration="6133000" />
       <workItem from="1655043662741" duration="966000" />
-      <workItem from="1655108919495" duration="628000" />
+      <workItem from="1655108919495" duration="2652000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
@@ -198,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653747651183</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;数组的二分查找法&quot;">
+      <created>1655109835430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655109835430</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +209,7 @@
     <MESSAGE value="&quot;可以更好的看到LinkedList的toString方法&quot;" />
     <MESSAGE value="&quot;2022-5-14对代码进行全面的提交---心累&quot;" />
     <MESSAGE value="&quot;2022-5-28 新建了剑指Offer&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;2022-5-28 新建了剑指Offer&quot;" />
+    <MESSAGE value="&quot;数组的二分查找法&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;数组的二分查找法&quot;" />
   </component>
 </project>
