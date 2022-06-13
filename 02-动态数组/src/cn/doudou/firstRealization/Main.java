@@ -1,6 +1,4 @@
-package cn.doudou;
-
-import cn.doudou.ArrayList;
+package cn.doudou.firstRealization;
 
 public class Main {
     public static void main(String[] args) {

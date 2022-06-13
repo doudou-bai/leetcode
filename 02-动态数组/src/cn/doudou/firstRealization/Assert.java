@@ -1,4 +1,4 @@
-package cn.doudou;
+package cn.doudou.firstRealization;
 
 public class Assert {
     public static void test(boolean b){
