@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="&quot;数组的二分查找法&quot;">
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_1_两数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_27_移除元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_35_搜索插入位置.java" afterDir="false" />
+    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="&quot;练习数组的相关算法&quot;">
+      <change afterPath="$PROJECT_DIR$/00-leetcode/src/初级算法/_2_买卖股票的最佳时机_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-leetcode/src/初级算法/_3_旋转数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_136_只出现一次的数字.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <recent name="cn.doudou" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._704_二分查找">
+  <component name="RunManager" selected="Application._3_旋转数组">
     <configuration name="EnglishConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.doudou.utis.EnglishConversion" />
       <module name="02-动态数组" />
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_21_调整数组顺序使奇数位于偶数前面" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指Offer._21_调整数组顺序使奇数位于偶数前面" />
+    <configuration name="_136_只出现一次的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组._136_只出现一次的数字" />
       <module name="00-leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指Offer.*" />
+          <option name="PATTERN" value="数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_53_I_在排序数组中查找数字I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="剑指Offer._53_I_在排序数组中查找数字I" />
+    <configuration name="_3_旋转数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="初级算法._3_旋转数组" />
       <module name="00-leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="剑指Offer.*" />
+          <option name="PATTERN" value="初级算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._704_二分查找" />
+        <item itemvalue="Application._3_旋转数组" />
         <item itemvalue="Application.Main2" />
+        <item itemvalue="Application._136_只出现一次的数字" />
+        <item itemvalue="Application._704_二分查找" />
         <item itemvalue="Application.EnglishConversion" />
-        <item itemvalue="Application._21_调整数组顺序使奇数位于偶数前面" />
-        <item itemvalue="Application._53_I_在排序数组中查找数字I" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,8 @@
       <workItem from="1653801519060" duration="967000" />
       <workItem from="1654923760341" duration="6133000" />
       <workItem from="1655043662741" duration="966000" />
-      <workItem from="1655108919495" duration="2652000" />
+      <workItem from="1655108919495" duration="7507000" />
+      <workItem from="1655212687466" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655109835430</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;练习数组的相关算法&quot;">
+      <created>1655111843013</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655111843013</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +218,7 @@
     <MESSAGE value="&quot;2022-5-14对代码进行全面的提交---心累&quot;" />
     <MESSAGE value="&quot;2022-5-28 新建了剑指Offer&quot;" />
     <MESSAGE value="&quot;数组的二分查找法&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;数组的二分查找法&quot;" />
+    <MESSAGE value="&quot;练习数组的相关算法&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;练习数组的相关算法&quot;" />
   </component>
 </project>
