@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="&quot;练习数组的相关算法&quot;">
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/初级算法/_2_买卖股票的最佳时机_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/初级算法/_3_旋转数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_136_只出现一次的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/00-leetcode/src/剑指Offer" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -56,17 +51,18 @@
       <recent name="D:\learning-code\Java\算法\01-复杂度\src\cn\doudou" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.doudou.secondaryImplementation" />
       <recent name="排序算法" />
       <recent name="cn.doudou" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._3_旋转数组">
-    <configuration name="EnglishConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.utis.EnglishConversion" />
-      <module name="02-动态数组" />
+  <component name="RunManager" selected="Application.Selection">
+    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.Selection" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.doudou.utis.*" />
+          <option name="PATTERN" value="cn.doudou.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.secondaryImplementation.Main2" />
-      <module name="02-动态数组" />
+    <configuration name="TestBubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestBubble" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.doudou.secondaryImplementation.*" />
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_136_只出现一次的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组._136_只出现一次的数字" />
+    <configuration name="TestComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestComparable" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_自写冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序算法._自写冒泡排序" />
       <module name="00-leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数组.*" />
+          <option name="PATTERN" value="排序算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,25 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_旋转数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="初级算法._3_旋转数组" />
-      <module name="00-leetcode" />
+    <configuration name="xuanze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.xuanze" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="初级算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_704_二分查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组._704_二分查找" />
-      <module name="00-leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="数组.*" />
+          <option name="PATTERN" value="cn.doudou.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._3_旋转数组" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application._136_只出现一次的数字" />
-        <item itemvalue="Application._704_二分查找" />
-        <item itemvalue="Application.EnglishConversion" />
+        <item itemvalue="Application.Selection" />
+        <item itemvalue="Application.xuanze" />
+        <item itemvalue="Application._自写冒泡排序" />
+        <item itemvalue="Application.TestBubble" />
+        <item itemvalue="Application.TestComparable" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +157,15 @@
       <workItem from="1654923760341" duration="6133000" />
       <workItem from="1655043662741" duration="966000" />
       <workItem from="1655108919495" duration="7507000" />
-      <workItem from="1655212687466" duration="778000" />
+      <workItem from="1655212687466" duration="4625000" />
+      <workItem from="1655298541326" duration="672000" />
+      <workItem from="1655370419088" duration="2375000" />
+      <workItem from="1655518447676" duration="1764000" />
+      <workItem from="1662018337471" duration="381000" />
+      <workItem from="1662084870390" duration="1316000" />
+      <workItem from="1662105205769" duration="2176000" />
+      <workItem from="1662124030364" duration="1851000" />
+      <workItem from="1662191171245" duration="4902000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
@@ -205,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655111843013</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;初级算法的日常练习&quot;">
+      <created>1655213630129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655213630129</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +230,7 @@
     <MESSAGE value="&quot;2022-5-28 新建了剑指Offer&quot;" />
     <MESSAGE value="&quot;数组的二分查找法&quot;" />
     <MESSAGE value="&quot;练习数组的相关算法&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;练习数组的相关算法&quot;" />
+    <MESSAGE value="&quot;初级算法的日常练习&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;初级算法的日常练习&quot;" />
   </component>
 </project>

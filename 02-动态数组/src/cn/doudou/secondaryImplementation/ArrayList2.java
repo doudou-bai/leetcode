@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 我们在对动态的数组进行设计的时候
  * 设计数组的数量和数组的元素等等
  */
-public class ArrayList2 {
+public class ArrayList2<E> {
     /**
      * 数组的数量
      */
@@ -16,9 +16,9 @@ public class ArrayList2 {
     /**
      * 数组的元素集合
      */
-    private int[] elements;
+    private E[] elements;
 
-    private static final int DEFAULT_CAPACITY = 10;
+    private static final int DEFAULT_CAPACITY = 3;
 
     private static final int ELEMENT_NOT_FOUND = -1;
 
@@ -31,7 +31,7 @@ public class ArrayList2 {
      */
     public ArrayList2(int capacity) {
         capacity = (capacity < DEFAULT_CAPACITY) ? DEFAULT_CAPACITY : capacity;
-        elements = new int[capacity];
+        elements = (E[]) new Object[capacity];
     }
 
     public ArrayList2() {
@@ -62,7 +62,7 @@ public class ArrayList2 {
      * @param element
      * @return
      */
-    public boolean contains(int element) {
+    public boolean contains(E element) {
         return indexOf(element) != ELEMENT_NOT_FOUND;
     }
 
@@ -71,8 +71,8 @@ public class ArrayList2 {
      *
      * @param element
      */
-    public void add(int element) {
-        elements[size++] = element;
+    public void add(E element) {
+        add(size, element);
     }
 
     /**
@@ -81,10 +81,8 @@ public class ArrayList2 {
      * @param index
      * @return
      */
-    public int get(int index) {
-        if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Array out of bounds exception!");
-        }
+    public E get(int index) {
+        rangeCheck(index);
         return elements[index];
     }
 
@@ -95,11 +93,9 @@ public class ArrayList2 {
      * @param element
      * @return
      */
-    public int set(int index, int element) {
-        if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Array out of bounds exception!");
-        }
-        int oldElement = elements[index];
+    public E set(int index, E element) {
+        rangeCheck(index);
+        E oldElement = elements[index];
         elements[index] = element;
         return oldElement;
     }
@@ -110,9 +106,31 @@ public class ArrayList2 {
      * @param index
      * @param element
      */
-    public void add(int index, int element) {
-
+    public void add(int index, E element) {
+        rangeCheckForAdd(index);
+        ensureCapacity(size + 1);
+        for (int i = size - 1; i >= index; i--) {
+            elements[i + 1] = elements[i];
+        }
+        elements[index] = element;
+        size++;
     }
+
+    /**
+     * 数组的动态扩容
+     *
+     * @param capacity
+     */
+    private void ensureCapacity(int capacity) {
+        int oldCapacity = elements.length;
+        if (oldCapacity >= capacity) return;
+        int newCapacity = oldCapacity + (oldCapacity >> 1);
+        E[] newEls = (E[]) new Object[newCapacity];
+        for (int i = 0; i < size; i++) {
+            newEls[i] = elements[i];
+        }
+        elements = newEls;
+}
 
     /**
      * 删除指定位置的元素并返回
@@ -120,12 +138,11 @@ public class ArrayList2 {
      * @param index
      * @return
      */
-    public int remove(int index) {
-        if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Array out of bounds exception!");
-        }
-        int old = elements[index];
+    public E remove(int index) {
+        rangeCheck(index);
+        E old = elements[index];
         for (int i = index + 1; i <= size - 1; i++) {
+            System.out.println(elements[i]);
             elements[i - 1] = elements[i];
         }
         size--;
@@ -138,7 +155,7 @@ public class ArrayList2 {
      * @param element
      * @return
      */
-    public int indexOf(int element) {
+    public int indexOf(E element) {
         for (int i = 0; i < size; i++) {
             if (elements[i] == element) {
                 return i;
@@ -152,6 +169,35 @@ public class ArrayList2 {
      */
     public void clear() {
         size = 0;
+    }
+
+    /**
+     * 对动态数组的检查方法
+     *
+     * @param index
+     */
+    private void rangeCheck(int index) {
+        if (index < 0 || index >= size) {
+            outOfBounds();
+        }
+    }
+
+    /**
+     * 对动态数组add方法的检查方法
+     *
+     * @param index
+     */
+    private void rangeCheckForAdd(int index) {
+        if (index < 0 || index > size) {
+            outOfBounds();
+        }
+    }
+
+    /**
+     * 抛出异常信息
+     */
+    private void outOfBounds() {
+        throw new IndexOutOfBoundsException("Array out of bounds exception!");
     }
 
     @Override
