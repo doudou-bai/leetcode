@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Shell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/SortCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/reverse_arr.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/doudou/algorithm/sort/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/cn/doudou/algorithm/sort/Selection.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
       <recent name="D:\learning-code\Java\算法\00-leetcode\src\剑指Offer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learning-code\Java\算法\algorithm\src" />
       <recent name="D:\learning-code\Java\算法\01-复杂度\src\cn\doudou" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -62,13 +63,13 @@
       <recent name="cn.doudou" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Insertion">
+  <component name="RunManager" selected="Application.SortCompare">
     <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.Insertion" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.doudou.algorithm.sort.*" />
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,7 +82,7 @@
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.doudou.algorithm.sort.*" />
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestBubble" />
+    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.Shell" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_自写冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序算法._自写冒泡排序" />
-      <module name="00-leetcode" />
+    <configuration name="SortCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.SortCompare" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="排序算法.*" />
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,7 +121,7 @@
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.doudou.algorithm.sort.*" />
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortCompare" />
+        <item itemvalue="Application.Shell" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.Selection" />
         <item itemvalue="Application.xuanze" />
-        <item itemvalue="Application._自写冒泡排序" />
-        <item itemvalue="Application.TestBubble" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,7 @@
       <workItem from="1662105205769" duration="2176000" />
       <workItem from="1662124030364" duration="1851000" />
       <workItem from="1662191171245" duration="7126000" />
-      <workItem from="1662275404563" duration="1644000" />
+      <workItem from="1662275404563" duration="6320000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662216657710</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;新增了插入排序的实现&quot;">
+      <created>1662280106756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662280106756</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +254,7 @@
     <MESSAGE value="&quot;练习数组的相关算法&quot;" />
     <MESSAGE value="&quot;初级算法的日常练习&quot;" />
     <MESSAGE value="&quot;新增了黑马程序员的数据与算法的代码实践&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增了黑马程序员的数据与算法的代码实践&quot;" />
+    <MESSAGE value="&quot;新增了插入排序的实现&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增了插入排序的实现&quot;" />
   </component>
 </project>
