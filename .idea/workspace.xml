@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Insertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/cn/doudou/algorithm/sort/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/cn/doudou/algorithm/sort/Selection.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +56,26 @@
       <recent name="D:\learning-code\Java\算法\01-复杂度\src\cn\doudou" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.doudou.algorithm.utils" />
       <recent name="cn.doudou.secondaryImplementation" />
       <recent name="排序算法" />
       <recent name="cn.doudou" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Selection">
+  <component name="RunManager" selected="Application.Insertion">
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.Insertion" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.doudou.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.Selection" />
       <module name="algorithm" />
@@ -74,19 +91,6 @@
     </configuration>
     <configuration name="TestBubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestBubble" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestComparable" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.Selection" />
         <item itemvalue="Application.xuanze" />
         <item itemvalue="Application._自写冒泡排序" />
         <item itemvalue="Application.TestBubble" />
-        <item itemvalue="Application.TestComparable" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +171,8 @@
       <workItem from="1662084870390" duration="1316000" />
       <workItem from="1662105205769" duration="2176000" />
       <workItem from="1662124030364" duration="1851000" />
-      <workItem from="1662191171245" duration="5632000" />
+      <workItem from="1662191171245" duration="7126000" />
+      <workItem from="1662275404563" duration="1644000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
@@ -218,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655213630129</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;新增了黑马程序员的数据与算法的代码实践&quot;">
+      <created>1662216657709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662216657710</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +245,7 @@
     <MESSAGE value="&quot;数组的二分查找法&quot;" />
     <MESSAGE value="&quot;练习数组的相关算法&quot;" />
     <MESSAGE value="&quot;初级算法的日常练习&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;初级算法的日常练习&quot;" />
+    <MESSAGE value="&quot;新增了黑马程序员的数据与算法的代码实践&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增了黑马程序员的数据与算法的代码实践&quot;" />
   </component>
 </project>
