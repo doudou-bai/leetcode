@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/SortCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/reverse_arr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestQuick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/SortCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/00-leetcode/src/剑指Offer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../22-learning-materials/Java" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -63,9 +66,9 @@
       <recent name="cn.doudou" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortCompare">
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.Insertion" />
+  <component name="RunManager" selected="Application.TestSequenceList">
+    <configuration name="TestComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestComparable" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.Selection" />
+    <configuration name="TestFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestFactorial" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.Shell" />
+    <configuration name="TestMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestMerge" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.SortCompare" />
+    <configuration name="TestQuick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestQuick" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xuanze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.sort.xuanze" />
+    <configuration name="TestSequenceList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestSequenceList" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortCompare" />
-        <item itemvalue="Application.Shell" />
-        <item itemvalue="Application.Insertion" />
-        <item itemvalue="Application.Selection" />
-        <item itemvalue="Application.xuanze" />
+        <item itemvalue="Application.TestSequenceList" />
+        <item itemvalue="Application.TestComparable" />
+        <item itemvalue="Application.TestQuick" />
+        <item itemvalue="Application.TestMerge" />
+        <item itemvalue="Application.TestFactorial" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +176,14 @@
       <workItem from="1662105205769" duration="2176000" />
       <workItem from="1662124030364" duration="1851000" />
       <workItem from="1662191171245" duration="7126000" />
-      <workItem from="1662275404563" duration="6320000" />
+      <workItem from="1662275404563" duration="6699000" />
+      <workItem from="1662344331104" duration="3627000" />
+      <workItem from="1662386855310" duration="3348000" />
+      <workItem from="1662473196933" duration="2523000" />
+      <workItem from="1662540638507" duration="690000" />
+      <workItem from="1662614558547" duration="35000" />
+      <workItem from="1662650326658" duration="2097000" />
+      <workItem from="1662733277200" duration="2305000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
@@ -238,11 +248,29 @@
       <option name="project" value="LOCAL" />
       <updated>1662280106756</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;新增了希尔排序,并且第一次认识到算法的强大性!!!&quot;">
+      <created>1662304046117</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662304046117</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;提交测试&quot;" />
@@ -255,6 +283,7 @@
     <MESSAGE value="&quot;初级算法的日常练习&quot;" />
     <MESSAGE value="&quot;新增了黑马程序员的数据与算法的代码实践&quot;" />
     <MESSAGE value="&quot;新增了插入排序的实现&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增了插入排序的实现&quot;" />
+    <MESSAGE value="&quot;新增了希尔排序,并且第一次认识到算法的强大性!!!&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增了希尔排序,并且第一次认识到算法的强大性!!!&quot;" />
   </component>
 </project>
