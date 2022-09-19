@@ -142,27 +142,28 @@ public class LinkList<T> implements Iterable<T> {
             return n.item;
         }
     }
-/*
-
-    @Override
-    public Iterator<T> iterator() {
-    }
-
-    private class LIterator implements Iterator {
-
-    }
 
     //用来反转整个链表
     public void reverse() {
-
-
+        //判断链表是否为空
+        if (isEmpty()) {
+            return;
+        }
+        reverse(head.next);
     }
 
     //反转指定的结点curr，并把反转后的结点返回
     public Node reverse(Node curr) {
-
+        if (curr.next == null) {
+            //头部结点的下一个节点等于curr
+            head.next = curr;
+            return curr;
+        }
+        Node pre = reverse(curr.next);
+        pre.next = curr;
+        curr.next = null;
+        return curr ;
     }
 
-*/
 
 }

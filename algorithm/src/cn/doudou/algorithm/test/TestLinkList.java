@@ -17,7 +17,12 @@ public class TestLinkList {
         for (String s : sl) {
             System.out.println(s);
         }
-        System.out.println("======================");
+        System.out.println("翻转后========================");
+        sl.reverse();
+        for (String s : sl) {
+            System.out.println(s);
+        }
+    /*    System.out.println("======================");
 
         //测试获取
         String s = sl.get(1);
@@ -27,6 +32,6 @@ public class TestLinkList {
         System.out.println(remove);
         //测试清空
         sl.clear();
-        System.out.println(sl.length());
+        System.out.println(sl.length());*/
     }
 }
