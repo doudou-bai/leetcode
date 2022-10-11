@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestCircleListCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestCircleListIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestFastSlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/linear/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/JosephTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/linear/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/linear/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TestLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leetcode/src/数组/_35_搜索插入位置.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_35_搜索插入位置.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leetcode/src/链表/_203_移除链表元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leetcode/src/链表/_203_移除链表元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/sort/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TowWayLinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/TowWayLinkListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +69,9 @@
       <recent name="cn.doudou" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCircleListIn">
-    <configuration name="FastSlowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.FastSlowTest" />
+  <component name="RunManager" selected="Application.TestStack">
+    <configuration name="JosephTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.JosephTest" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestLinkList" />
+    <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.TestStack" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStack" />
+        <item itemvalue="Application.JosephTest" />
         <item itemvalue="Application.TestCircleListIn" />
         <item itemvalue="Application.TestCircleListCheck" />
         <item itemvalue="Application.TestFastSlow" />
-        <item itemvalue="Application.TestLinkList" />
-        <item itemvalue="Application.FastSlowTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +192,18 @@
       <workItem from="1663249608112" duration="5372000" />
       <workItem from="1663569193149" duration="1403000" />
       <workItem from="1663594855508" duration="4958000" />
+      <workItem from="1663659557770" duration="8284000" />
+      <workItem from="1663748282977" duration="360000" />
+      <workItem from="1663827587497" duration="31000" />
+      <workItem from="1664175701931" duration="790000" />
+      <workItem from="1664259886237" duration="834000" />
+      <workItem from="1664281369340" duration="158000" />
+      <workItem from="1664282159253" duration="560000" />
+      <workItem from="1664354886285" duration="17000" />
+      <workItem from="1664420701578" duration="1804000" />
+      <workItem from="1664435327753" duration="906000" />
+      <workItem from="1665214376540" duration="131000" />
+      <workItem from="1665455662452" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
