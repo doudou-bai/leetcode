@@ -49,21 +49,30 @@ public class OrderSymbolTable<Key extends Comparable<Key>, Value> {
      * @param value
      */
     public void put(Key key, Value value) {
-        Node n = head;
-        //如果键已经存在的情况下 就直接替换值
-        while (n.next != null) {
-            n = n.next;
-            if (n.key.equals(key)) {
-                n.value = value;
-                return;
-            }
+        //定义两个Node变量，分别记录当前结点和当前结点的上一个结点
+
+        Node curr = head.next;
+        Node pre = head;
+        while(curr!=null && key.compareTo(curr.key)>0){
+
+            //变换当前结点和前一个结点即可
+            pre = curr;
+            curr = curr.next;
         }
-        //如果不存在 就插入一个键值对
-        Node newNode = new Node(key, value, null);
-        Node oldNext = head.next;
-        newNode.next = oldNext;
-        head.next = newNode;
+
+        //如果当前结点curr的键和要插入的key一样，则替换
+        if (curr!=null && key.compareTo(curr.key)==0){
+            curr.value = value;
+            return;
+        }
+
+        //如果当前结点curr的键和要插入的key不一样，把新的结点插入到curr之前
+        Node newNode = new Node(key, value, curr);
+        pre.next = newNode;
+
+        //元素的个数+1；
         N++;
+
     }
 
     /**
