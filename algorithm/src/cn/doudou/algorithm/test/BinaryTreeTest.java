@@ -9,12 +9,12 @@ import cn.doudou.algorithm.tree.BinaryTree;
 public class BinaryTreeTest {
     public static void main(String[] args) {
         BinaryTree<Integer, String> tree = new BinaryTree<Integer, String>();
-        tree.put(1, "张三");
+        tree.put(3, "张三");
         tree.put(2, "李四");
-        tree.put(3, "王五");
+        tree.put(1, "王五");
         tree.put(4, "赵六");
-//        System.out.println(tree.size());
-//        System.out.println(tree.get(2));
-        System.out.println(tree.max());
+        tree.put(5, "洪七");
+
+        System.out.println(tree.maxDepth());
     }
 }

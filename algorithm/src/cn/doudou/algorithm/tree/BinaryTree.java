@@ -1,5 +1,7 @@
 package cn.doudou.algorithm.tree;
 
+import cn.doudou.algorithm.linear.Queue;
+
 /**
  * Create By 王嘉浩
  * Time 2022-10-24 14:38
@@ -213,4 +215,184 @@ public class BinaryTree<Key extends Comparable<Key>, Value> {
             return x;
         }
     }
+
+    /**
+     * 使用前序遍历，获取整个树中的所有键
+     *
+     * @return
+     */
+    public Queue preErgodic() {
+        Queue<Key> keys = new Queue<>();
+        preErgodic(root, keys);
+        return keys;
+    }
+
+    /**
+     * 使用前序遍历，把指定树x中的所有键放入到keys队列中
+     *
+     * @param x
+     * @param keys
+     */
+    private void preErgodic(Node x, Queue keys) {
+        //判断x是否为空
+        if (x == null) {
+            return;
+        }
+
+        keys.enqueue(x.key);
+
+        //递归遍历左节点
+        if (x.left != null) {
+            preErgodic(x.left, keys);
+        }
+        if (x.right != null) {
+            preErgodic(x.right, keys);
+        }
+    }
+
+    /**
+     * 使用中序遍历，获取整个树中的所有键
+     *
+     * @return
+     */
+    public Queue midErgodic() {
+        Queue<Key> keys = new Queue<>();
+        midErgodic(root, keys);
+        return keys;
+    }
+
+    /**
+     * 使用中序遍历，把指定树x中的所有键放入到keys队列中
+     *
+     * @param x
+     * @param keys
+     */
+    public void midErgodic(Node x, Queue keys) {
+        //判断x是否为空
+        if (x == null) {
+            return;
+        }
+
+        //递归遍历左节点
+        if (x.left != null) {
+            midErgodic(x.left, keys);
+        }
+
+        keys.enqueue(x.key);
+
+        if (x.right != null) {
+            midErgodic(x.right, keys);
+        }
+    }
+
+    /**
+     * 使用后序遍历，获取整个树中的所有键
+     *
+     * @return
+     */
+    public Queue afterErgodic() {
+        Queue<Key> keys = new Queue<>();
+        afterErgodic(root, keys);
+        return keys;
+    }
+
+    /**
+     * 使用后序遍历，把指定树x中的所有键放入到keys队列中
+     *
+     * @param x
+     * @param keys
+     */
+    public void afterErgodic(Node x, Queue keys) {
+        //判断x是否为空
+        if (x == null) {
+            return;
+        }
+
+        //递归遍历左节点
+        if (x.left != null) {
+            afterErgodic(x.left, keys);
+        }
+
+        //递归遍历右节点
+        if (x.right != null) {
+            afterErgodic(x.right, keys);
+        }
+
+        //递归遍历首节点
+        keys.enqueue(x.key);
+    }
+
+    /**
+     * 使用层序遍历获得树中所有的键
+     *
+     * @return Queue
+     */
+    public Queue layerErgodic() {
+        //创建2个队列分别存储节点和键的值
+        Queue<Key> keys = new Queue<>();
+        Queue<Node> nodes = new Queue<>();
+
+        //向队列中放入根节点
+        nodes.enqueue(root);
+
+        //判断队列是否还有元素
+        while (!nodes.isEmpty()) {
+            //弹出一个元素
+            Node node = nodes.dequeue();
+            //把元素的key放入keys队列中
+            keys.enqueue(node.key);
+            //判断节点的左子节点不为空就把左子节点放入到队列
+            if (node.left != null) {
+                nodes.enqueue(node.left);
+            }
+
+            //判断节点的右子节点不为空就把右子节点放入到队列
+            if (node.right != null) {
+                nodes.enqueue(node.right);
+            }
+        }
+        return keys;
+    }
+
+    /**
+     * 计算整个树的最大深度
+     *
+     * @return
+     */
+    public int maxDepth() {
+        return maxDepth(root);
+    }
+
+    /**
+     * 计算x树的最大深度
+     *
+     * @param x
+     * @return
+     */
+    private int maxDepth(Node x) {
+        //判断x是否为空
+        if (x == null) {
+            return 0;
+        }
+
+        //定义x树的最大深度
+        int max = 0;
+        //定义left的最大深度
+        int maxL = 0;
+        //定义right的最大深度
+        int maxR = 0;
+
+        if (x.left != null) {
+            maxL = maxDepth(x.left);
+        }
+
+        if (x.right != null) {
+            maxR = maxDepth(x.right);
+        }
+        //找出最大值然后赋值给max
+        max = maxL > maxR ? maxL + 1 : maxR + 1;
+        //返回max值
+        return max;
+    }
+
 }
