@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/04-栈/src/cn/doudou/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-栈/src/cn/doudou/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-栈/src/cn/doudou/list/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-栈/src/cn/doudou/list/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-栈/src/cn/doudou/list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-栈/src/cn/doudou/list/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/BinaryTreeErgodicTest.java" afterDir="false" />
+    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="&quot;2022-11-2 08:56 6提交昨天的代码&quot;">
+      <change afterPath="$PROJECT_DIR$/00-leetcode/src/队列/_232_用栈实现队列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/circle/CircleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/list/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/list/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/heap/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/heap/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/HeapSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/HeapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/PagerFoldingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-leetcode/src/链表/_141_环形链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leetcode/src/链表/_141_环形链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/test/BinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/cn/doudou/algorithm/tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +58,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-栈/src/cn/doudou/list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/05-队列/src/cn/doudou/list" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning-code\Java\算法\05-队列\src\cn\doudou\list" />
       <recent name="D:\learning-code\Java\算法\04-栈\src\cn\doudou\list" />
       <recent name="D:\learning-code\Java\算法\algorithm\src\cn\doudou\algorithm\linear" />
       <recent name="D:\learning-code\Java\算法\algorithm\src\cn\doudou\algorithm\test" />
@@ -75,20 +82,7 @@
       <recent name="cn.doudou" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._20_有效的括号">
-    <configuration name="BinaryTreeErgodicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.BinaryTreeErgodicTest" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="BinaryTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.BinaryTreeTest" />
       <module name="algorithm" />
@@ -102,9 +96,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HeapSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.HeapSortTest" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.HeapTest" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.doudou.Main" />
-      <module name="04-栈" />
+      <module name="05-队列" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.doudou.*" />
@@ -115,25 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11_盛最多水的容器" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组._11_盛最多水的容器" />
-      <module name="00-leetcode" />
+    <configuration name="PagerFoldingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.doudou.algorithm.test.PagerFoldingTest" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_20_有效的括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="栈._20_有效的括号" />
-      <module name="00-leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="栈.*" />
+          <option name="PATTERN" value="cn.doudou.algorithm.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._20_有效的括号" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BinaryTreeErgodicTest" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.BinaryTreeTest" />
-        <item itemvalue="Application._11_盛最多水的容器" />
+        <item itemvalue="Application.HeapSortTest" />
+        <item itemvalue="Application.HeapTest" />
+        <item itemvalue="Application.PagerFoldingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +229,16 @@
       <workItem from="1667009900473" duration="7832000" />
       <workItem from="1667112804267" duration="4505000" />
       <workItem from="1667290841896" duration="6225000" />
-      <workItem from="1667349091713" duration="1353000" />
+      <workItem from="1667349091713" duration="3486000" />
+      <workItem from="1667369863743" duration="5211000" />
+      <workItem from="1667391430703" duration="12000" />
+      <workItem from="1667393422376" duration="595000" />
+      <workItem from="1667610637129" duration="11384000" />
+      <workItem from="1667698616070" duration="1211000" />
+      <workItem from="1667713525122" duration="5879000" />
+      <workItem from="1667780475097" duration="1215000" />
+      <workItem from="1667872515160" duration="1631000" />
+      <workItem from="1667879077589" duration="6579000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
@@ -336,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667010917335</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="&quot;2022-11-2 08:56 6提交昨天的代码&quot;">
+      <created>1667350610735</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667350610735</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +394,8 @@
     <MESSAGE value="&quot;刷题&quot;" />
     <MESSAGE value="&quot;新增无序符号表和有序符号表&quot;" />
     <MESSAGE value="&quot;新增树中的最大值和最小值方法&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;新增树中的最大值和最小值方法&quot;" />
+    <MESSAGE value="&quot;2022-11-2 08:56 6提交昨天的代码&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;2022-11-2 08:56 6提交昨天的代码&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

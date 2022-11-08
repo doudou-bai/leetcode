@@ -2,14 +2,19 @@ package 链表;
 
 public class _141_环形链表 {
     public boolean hasCycle(ListNode head) {
-        if (head == null || head.next == null) return false;
-        ListNode slow = head.next;
-        ListNode fast = head.next.next;
+        // 快慢指针初始化指向 head
+        ListNode slow = head, fast = head;
+        // 快指针走到末尾时停止
         while (fast != null && fast.next != null) {
-            if (slow == fast) return true;
+            // 慢指针走一步，快指针走两步
             slow = slow.next;
             fast = fast.next.next;
+            // 快慢指针相遇，说明含有环
+            if (slow == fast) {
+                return true;
+            }
         }
+        // 不包含环
         return false;
     }
 }
