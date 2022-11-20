@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class _1_冒泡排序 {
     public static void main(String[] args) {
         Integer[] arr = new Integer[]{2, 3, 1, 5, 7, 6, 4};
-
         Integer[] sort = sort(arr);
         System.out.println(Arrays.toString(sort));
     }

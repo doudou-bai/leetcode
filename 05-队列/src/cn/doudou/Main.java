@@ -1,5 +1,6 @@
 package cn.doudou;
 
+import cn.doudou.circle.CircleDeque;
 import cn.doudou.circle.CircleQueue;
 
 /**
@@ -26,7 +27,7 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
+    void test2() {
         CircleQueue<String> cq = new CircleQueue<>();
         cq.enQueue("AA");
         cq.enQueue("BB");
@@ -44,5 +45,20 @@ public class Main {
         cq.enQueue("22");
         cq.enQueue("33");
         System.out.println(cq.toString());
+    }
+
+    public static void main(String[] args) {
+        CircleDeque<Integer> ccd = new CircleDeque();
+        for (int i = 0; i < 10; i++) {
+            ccd.enQueueFront(i + 1);
+            ccd.enQueueRear(i + 100);
+        }
+        for (int i = 0; i < 3; i++) {
+            ccd.deQueueFront();
+            ccd.deQueueFrRear();
+        }
+        ccd.enQueueFront(11);
+        ccd.enQueueFront(12);
+        System.out.println(ccd.toString());
     }
 }

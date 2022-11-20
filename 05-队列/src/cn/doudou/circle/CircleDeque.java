@@ -1,12 +1,12 @@
 package cn.doudou.circle;
 
 /**
- * 循环队列的实现
+ * 循环双端队列
  * <p>
  * Create By 王嘉浩
- * Time 2022-11-08 20:14
+ * Time 2022-11-09 11:12
  */
-public class CircleQueue<E> {
+public class CircleDeque<E> {
     /**
      * 头部索引
      */
@@ -25,8 +25,19 @@ public class CircleQueue<E> {
      */
     private static final int DEFAULT_CAPACIIY = 10;
 
-    public CircleQueue() {
+    public CircleDeque() {
         elements = (E[]) new Object[DEFAULT_CAPACIIY];
+    }
+
+    /**
+     * 清空队列
+     */
+    public void clear() {
+        for (int i = 0; i < i; i++) {
+            elements[index(i)] = null;
+        }
+        front = 0;
+        size = 0;
     }
 
     /**
@@ -48,35 +59,44 @@ public class CircleQueue<E> {
     }
 
     /**
-     * 清空队列
-     */
-    public void clear() {
-        for (int i = 0; i < size; i++) {
-            elements[index(i)] = null;
-        }
-        size = 0;
-        front = 0;
-    }
-
-    /**
-     * 入队
+     * 从尾部入队
      *
      * @param element
      */
-    public void enQueue(E element) {
+    public void enQueueRear(E element) {
         ensureCapacity(size + 1);
         //计算下要入队的元素的索引值在哪里
-        int i = index(size);
-        elements[i] = element;
+        elements[index(size)] = element;
         size++;
     }
 
     /**
-     * 出队
+     * 从头部入队
      *
-     * @return
+     * @param element
      */
-    public E deQueue() {
+    public void enQueueFront(E element) {
+        ensureCapacity(size + 1);
+        front = index(-1);
+        elements[front] = element;
+        size++;
+    }
+
+    /**
+     * 从尾部出队
+     */
+    public E deQueueFrRear() {
+        int rearIndex = index(size - 1);
+        E element = elements[rearIndex];
+        elements[rearIndex] = null;
+        size--;
+        return element;
+    }
+
+    /**
+     * 从头部出队
+     */
+    public E deQueueFront() {
         //取出元素
         E frontElement = elements[front];
         //原来位置的元素设置为空
@@ -88,13 +108,23 @@ public class CircleQueue<E> {
         return frontElement;
     }
 
+
     /**
-     * 返回第一个头部元素
+     * 获取头部的元素
      *
      * @return
      */
     public E front() {
         return elements[front];
+    }
+
+    /**
+     * 获取尾部的元素
+     *
+     * @return
+     */
+    public E Rear() {
+        return elements[index(size - 1)];
     }
 
     @Override
@@ -103,9 +133,9 @@ public class CircleQueue<E> {
         string.append("CircleQueue{ size = ").append(size)
                 .append(" length = ").append(elements.length)
                 .append(", elements = [");
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < elements.length; i++) {
             string.append(elements[i]);
-            if (i != size - 1) {
+            if (i != elements.length - 1) {
                 string.append(",");
             }
         }
@@ -140,6 +170,12 @@ public class CircleQueue<E> {
      * @return
      */
     private int index(int i) {
+        i += front;
+        //需要判断下如果是负数的情况下就加上elements.length
+        if (i < 0) {
+            return i + elements.length;
+        }
         return i - (i >= elements.length ? elements.length : 0);
+
     }
 }
