@@ -19,14 +19,18 @@ public class Main {
 
     public static void main(String[] args) throws IllegalAccessException {
         Integer[] datas = new Integer[]{
-                7, 4, 9, 2
+                8, 4, 13, 2, 6, 10, 1, 3, 5, 7, 9, 12, 11
         };
         BinarySearchTree<Integer> bst = new BinarySearchTree<Integer>();
         for (Integer data : datas) {
             bst.add(data);
         }
+
         BinaryTrees.println(bst);
-        System.out.println(bst.isComplete());
+        System.out.println("\n");
+        bst.remove(8);
+        BinaryTrees.println(bst);
+
                         /*bst.preorderTraversal(new BinarySearchTree.Visitor<Integer>() {
             @Override
             boolean visit(Integer element) {

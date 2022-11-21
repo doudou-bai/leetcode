@@ -112,15 +112,6 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
 
     /**
-     * 删除元素
-     *
-     * @param element
-     */
-    public void remove(E element) {
-
-    }
-
-    /**
      * 是否包含某个元素
      *
      * @param element
@@ -340,6 +331,123 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         }
         return true;
     }*/
+
+    /**
+     * 删除元素
+     *
+     * @param element
+     */
+    public void remove(E element) {
+        remove(node(element));
+    }
+
+    /**
+     * 删除的重载方法
+     *
+     * @param node
+     */
+    private void remove(Node<E> node) {
+        if (node == null) return;
+
+        size--;
+        if (node.hasTuoChildren()) {//度为2
+            //找到node的后继结点
+            Node<E> successor = successor(node);
+            node.element = successor.element;
+            node = successor;
+        }
+        //删除node结点
+        Node<E> replacement = node.left != null ? node.left : node.right;
+
+        //node是度为1的节点
+        if (replacement != null) {
+            replacement.parent = node.parent;
+            if (node.parent == null) {
+                root = replacement;
+            } else if (node == node.parent.left) {
+                node.parent.left = replacement;
+            } else { // (node == node.parent.right) {
+                node.parent.right = replacement;
+            }
+        } else if (node.parent == null) {//说明node是叶子并且还是根节点
+            root = null;
+        } else {//node是叶子节点 但不是根结点
+            //判断下node是不是等于它的父节点的右节点或者左节点  是的话就赋值
+            if (node == node.parent.left) {
+                node.parent.left = replacement;
+            } else {
+                node.parent.right = replacement;
+            }
+        }
+
+    }
+
+    private Node<E> node(E element) {
+        Node<E> node = root;
+        while (node != null) {
+            int cmp = compare(element, node.element);
+            if (cmp == 0) return node;
+            if (cmp > 0) {
+                node = node.right;
+            } else {
+                node = node.left;
+            }
+        }
+        return null;
+    }
+
+
+    /**
+     * 找到指定节点的前驱结点
+     *
+     * @param node
+     * @return
+     */
+    private Node<E> predecessor(Node<E> node) {
+        if (node.left == null) return null;
+
+        /**
+         * 第一种情况 如果他的左边子节点不等于空 那么就一直循环找到左子节点最大的那个节点
+         */
+        Node<E> p = node.left;
+        if (p != null) {
+            while (p.right != null) {
+                p = p.right;
+            }
+            return p;
+        }
+
+        while (node.parent != null && node == node.parent.left) {
+            node = node.parent;
+        }
+        return node.parent;
+    }
+
+    /**
+     * 找到指定节点的后驱结点
+     *
+     * @param node
+     * @return
+     */
+    private Node<E> successor(Node<E> node) {
+        if (node.right == null) return null;
+
+        /**
+         * 第一种情况 如果他的左边子节点不等于空 那么就一直循环找到左子节点最大的那个节点
+         */
+        Node<E> p = node.right;
+        if (p != null) {
+            while (p.left != null) {
+                p = p.left;
+            }
+            return p;
+        }
+
+        while (node.parent != null && node == node.parent.right) {
+            node = node.parent;
+        }
+        return node.parent;
+    }
 
 
     /**

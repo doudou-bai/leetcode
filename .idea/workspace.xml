@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="&quot;2022-11-2 08:56 6提交昨天的代码&quot;">
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/_100_相同的树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/_102_二叉树的层序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/_104_二叉树的最大深度.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/_144_二叉树的前序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/_145_二叉树的后序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/_226_翻转二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/_94_二叉树的中序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-leetcode/src/数组/_22_括号生成.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/circle/CircleDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/file/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/printer/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="ddceb981-f345-4c1a-85c2-716d1d66d227" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/00-leetcode/src/二叉树/_700_二叉搜索树中的搜索.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-leetcode/src/排序算法/_1_冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/00-leetcode/src/排序算法/_1_冒泡排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-队列/src/cn/doudou/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-队列/src/cn/doudou/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-队列/src/cn/doudou/circle/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-队列/src/cn/doudou/circle/CircleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/00-leetcode/链表/_141_环形链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/00-leetcode/链表/_141_环形链表.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_二叉搜索树/src/cn/doudou/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +244,8 @@
       <workItem from="1668688160543" duration="399000" />
       <workItem from="1668824749689" duration="7859000" />
       <workItem from="1668857204241" duration="4686000" />
-      <workItem from="1668910095503" duration="597000" />
+      <workItem from="1668910095503" duration="5450000" />
+      <workItem from="1669017270024" duration="3909000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;主要对于双向链表的toString方法进行的重构操作&quot;">
       <created>1652366588531</created>
@@ -388,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667350610735</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="&quot;对二叉树的添加&quot;">
+      <created>1668910743228</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668910743228</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +409,8 @@
     <MESSAGE value="&quot;新增无序符号表和有序符号表&quot;" />
     <MESSAGE value="&quot;新增树中的最大值和最小值方法&quot;" />
     <MESSAGE value="&quot;2022-11-2 08:56 6提交昨天的代码&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;2022-11-2 08:56 6提交昨天的代码&quot;" />
+    <MESSAGE value="&quot;对二叉树的添加&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;对二叉树的添加&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
